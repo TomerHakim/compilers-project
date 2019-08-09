@@ -1,0 +1,82 @@
+﻿Build started 7/13/2019 11:52:39 PM.
+     1>Project "C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\matala1_compilation\matala1_compilation.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\matala3_compilation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Parser.c semantic.c Token.c Parser_backup.c win.lex.yy.c
+         win.lex.yy.c
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : macro redefinition
+                 win.lex.yy.c(59) : see previous definition of 'INT8_MIN'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : macro redefinition
+                 win.lex.yy.c(62) : see previous definition of 'INT16_MIN'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : macro redefinition
+                 win.lex.yy.c(65) : see previous definition of 'INT32_MIN'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : macro redefinition
+                 win.lex.yy.c(68) : see previous definition of 'INT8_MAX'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : macro redefinition
+                 win.lex.yy.c(71) : see previous definition of 'INT16_MAX'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : macro redefinition
+                 win.lex.yy.c(74) : see previous definition of 'INT32_MAX'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : macro redefinition
+                 win.lex.yy.c(77) : see previous definition of 'UINT8_MAX'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : macro redefinition
+                 win.lex.yy.c(80) : see previous definition of 'UINT16_MAX'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : macro redefinition
+                 win.lex.yy.c(83) : see previous definition of 'UINT32_MAX'
+     1>flex.lex(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(79): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>flex.lex(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Parser_backup.c
+         Token.c
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\token.c(119): warning C4013: 'yylex' undefined; assuming extern returning int
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\token.c(133): warning C4101: 'i' : unreferenced local variable
+         semantic.c
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\semantic.c(70): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Parser.c
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\parser.c(906): warning C4101: 'result' : unreferenced local variable
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\parser.c(905): warning C4101: 'func_entry' : unreferenced local variable
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\parser.c(947): warning C4101: 'result' : unreferenced local variable
+         Generating Code...
+     1>c:\users\tomer\studies\year3\semesterb\compilation\assignment 3 - new fix\compliationassignment1\matala1_compilation\parser.c(841): warning C4715: 'Parse_EXPRESSION_A' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\matala3_compilation.exe.embed.manifest.res" Debug\matala3_compilation_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\matala3_compilation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.lib" /MACHINE:X86 Debug\matala3_compilation.exe.embed.manifest.res
+         Debug\Parser.obj
+         Debug\semantic.obj
+         Debug\Token.obj
+         Debug\Parser_backup.obj
+         Debug\win.lex.yy.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\matala3_compilation.exe.embed.manifest" /manifest Debug\matala3_compilation.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\matala3_compilation.exe.embed.manifest.res" Debug\matala3_compilation_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\matala3_compilation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.lib" /MACHINE:X86 Debug\matala3_compilation.exe.embed.manifest.res
+         Debug\Parser.obj
+         Debug\semantic.obj
+         Debug\Token.obj
+         Debug\Parser_backup.obj
+         Debug\win.lex.yy.obj
+         matala1_compilation.vcxproj -> C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\Debug\matala3_compilation.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\matala3_compilation.unsuccessfulbuild".
+         Touching "Debug\matala3_compilation.lastbuildstate".
+     1>Done Building Project "C:\Users\tomer\Studies\year3\SemesterB\Compilation\Assignment 3 - new fix\CompliationAssignment1\matala1_compilation\matala1_compilation.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15

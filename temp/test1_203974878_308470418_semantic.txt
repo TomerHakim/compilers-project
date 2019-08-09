@@ -1,0 +1,80 @@
+ERROR: Duplicated definition of variable 'b' in line number 6.
+ERROR: Duplicated definition of variable 'ABCd_efg' in line number 11.
+Warning: The variable 'b' is declared but is not used. Line number: 3 
+Warning: The variable 'c' is declared but is not used. Line number: 4 
+Warning: The variable 'd' is declared but is not used. Line number: 4 
+Warning: The variable 'arr' is declared but is not used. Line number: 5 
+Warning: The variable 'abcaaa' is declared but is not used. Line number: 7 
+Warning: The variable 'tmp123' is declared but is not used. Line number: 8 
+Warning: The variable 'varname2' is declared but is not used. Line number: 8 
+Warning: The variable 'varname_22' is declared but is not used. Line number: 9 
+Warning: The variable 'tmp4_4_4' is declared but is not used. Line number: 10 
+Warning: The variable 'ABCd_efg' is declared but is not used. Line number: 10 
+Warning: The variable 'i_j_k_0' is declared but is not used. Line number: 10 
+Warning: The variable 'varname_4_4' is declared but is not used. Line number: 10 
+Warning: The variable 'i_j_k_0_0' is declared but is not used. Line number: 11 
+Warning: The variable 'varname' is declared but is not used. Line number: 11 
+ERROR: Duplicated definition of variable 'repeatDecleration' in line number 45.
+ERROR: Type mismatch. Variable: test_int type is integer which is different than the expression type: real. Line number: 55. 
+ERROR: Type mismatch. Variable: test_int type is integer which is different than the expression type: real. Line number: 56. 
+Warning: The variable 'declared_but_nod_used' is declared but is not used. Line number: 44 
+Warning: The variable 'repeatDecleration' is declared but is not used. Line number: 44 
+Warning: The variable 'arr' is declared but is not used. Line number: 45 
+ERROR: Return statement did not appear in function: 'example', which has type different than void. Function declared in line number: 43 
+ERROR: Duplicated definition of variable 'a' in line number 70.
+ERROR: Direct assignment to a function id is forbidden. Id: tomer, line number: 75. 
+Warning: The variable 'a' is declared but is not used. Line number: 67 
+Warning: The variable 'name_name' is declared but is not used. Line number: 68 
+Warning: The variable 'd' is declared but is not used. Line number: 69 
+ERROR: Duplicated definition of variable 'tmp' in line number 82.
+ERROR: Duplicated definition of variable 'name_name' in line number 83.
+ERROR: Duplicated definition of variable 'name_name' in line number 83.
+ERROR: Returned type: Void differs from function type: integer. Line number: 84 
+ERROR: Array index out of bound. Id: varname, array size: 89, but required index: 121314 line number: 85. 
+ERROR: Type mismatch. Variable: tmp type is integer which is different than the expression type: real. Line number: 86. 
+ERROR: The number of parameters used in function call 'tomer' does not match to the function's definition. Required number of parameters: 2, given number of parameters 0. Line number: 87. 
+ERROR: Direct assignment to a function id is forbidden. Id: boo, line number: 89. 
+ERROR: The variable 'b' is in use, but was not declared. Line number: 90
+ERROR: The function 'foo' is in use, but was not declared. Line number: 91 
+Warning: The variable 'aa' is declared but is not used. Line number: 80 
+Warning: The variable 'name_name' is declared but is not used. Line number: 81 
+Warning: The variable 'id' is declared but is not used. Line number: 83 
+ERROR: Duplicated definition of function 'boo' in line number: 94.
+ERROR: Duplicated definition of variable 'tmp' in line number 95.
+ERROR: Duplicated definition of variable 'tt' in line number 95.
+Warning: The variable 'tmp' is declared but is not used. Line number: 94 
+Warning: The variable 'dd' is declared but is not used. Line number: 99 
+ERROR: The number of parameters used in function call 'boo' does not match to the function's definition. Required number of parameters: 2, given number of parameters 1. Line number: 103. 
+Warning: The variable 'tt' is declared but is not used. Line number: 94 
+Warning: The variable 'id' is declared but is not used. Line number: 95 
+ERROR: Duplicated definition of variable 'tmp' in line number 108.
+ERROR: Duplicated definition of variable 'tmp' in line number 108.
+ERROR: Duplicated definition of variable 'tmp' in line number 108.
+ERROR: Duplicated definition of variable 'tmp' in line number 108.
+ERROR: Duplicated definition of variable 'tmp' in line number 108.
+ERROR: Duplicated definition of variable 'id' in line number 108.
+ERROR: Duplicated definition of variable 'tmp' in line number 108.
+ERROR: Duplicated definition of variable 'tmp' in line number 109.
+ERROR: Duplicated definition of variable 'id' in line number 109.
+ERROR: Duplicated definition of variable 'tmp' in line number 110.
+ERROR: Duplicated definition of variable 'id' in line number 111.
+ERROR: Duplicated definition of variable 'tmp' in line number 111.
+ERROR: Duplicated definition of variable 'tmp' in line number 111.
+ERROR: Duplicated definition of variable 'tmp' in line number 111.
+ERROR: Duplicated definition of variable 'i_j_k' in line number 114.
+ERROR: Returned type: Void differs from function type: integer. Line number: 117 
+Warning: The variable 'tmp' is declared but is not used. Line number: 94 
+Warning: The variable 'i_j_k' is declared but is not used. Line number: 114 
+Warning: The variable 'varname' is declared but is not used. Line number: 115 
+Warning: The variable 'ABCd_efg' is declared but is not used. Line number: 108 
+Warning: The variable 'id' is declared but is not used. Line number: 108 
+ERROR: Duplicated definition of variable 'tmp' in line number 123.
+ERROR: Duplicated definition of variable 'tt' in line number 123.
+ERROR: Duplicated definition of variable 'tmp' in line number 124.
+ERROR: Duplicated definition of variable 'tt' in line number 124.
+ERROR: Duplicated definition of variable 'id' in line number 124.
+Warning: The variable 'tmp' is declared but is not used. Line number: 94 
+Warning: The variable 'dd' is declared but is not used. Line number: 128 
+ERROR: Return statement did not appear in function: 'poo', which has type different than void. Function declared in line number: 123 
+ERROR: The number of parameters used in function call 'boo' does not match to the function's definition. Required number of parameters: 2, given number of parameters 1. Line number: 132. 
+Warning: The variable 'tmp' is declared but is not used. Line number: 94 

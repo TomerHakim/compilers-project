@@ -1,0 +1,52 @@
+-- good input file
+program
+	integer tmp123, varname2;
+	real varname_22;
+	real tmp4_4_4, ABCd_efg[321], i_j_k_0, varname_4_4[22];
+	real  ABCd_efg, i_j_k_0_0 , varname;
+
+	ABCd_efg [0] = id * i_j_k * 2.3; 
+	varname_0_0 = 3.14; 
+	{ 
+		integer i_j_k, i_j_k ;
+		real varname;
+		real id_0_0, varname [5], i_j_k_0_0, varname [56];
+		{
+			real varname;
+			return;
+			ABCd_efg[0]= ABCd_efg / id_0_0 * 0.0;	
+			varname = 0.0;
+		};
+
+	}; 
+
+	return ABCd_efg / varname_0_0 / i_j_k / ABCd_efg * varname_0_0 [2]; 
+	return;
+	funcname( );
+	func_ABCd_efg(name_name [1234], name_name, tmp, Arr_name[567]);
+
+end 
+
+void boo (){
+	integer name_name, tmp ;
+	real tmp;
+	real name_name, varname [89], id, name_name [1011]; 
+	return;
+	varname [121314]= varname * tmp * 15.16; 
+	tmp = 17.18;
+}
+
+integer foo (real tmp , ABCd_efg, tmp [19]; real tmp [20], tmp ; integer tmp, id, id, tmp) { 
+	integer tmp, id ;
+	real tmp;
+	real id, tmp [21], tmp, tmp [22];
+	
+	{
+		integer i_j_k, i_j_k ;
+		real varname;
+
+		return;
+		ABCd_efg[23]= id * ABCd_efg * 24.5; 
+		ABCd_efg = 6.7;
+	};
+}

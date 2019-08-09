@@ -1,0 +1,135 @@
+-- bad input file
+program
+	int tmp123, varname2;    	 -- int instead of integer  
+	{
+	integer k;
+	tmp123 = 1000;
+	};
+
+	{
+	real real_var;
+	ABCd_efg [0] = id * i_j_k ** 2.3;      --  two multiplication signs instead of one  
+	};
+
+	{
+	real varname_22, varname_22 = 3.14;     	         -- , instead of  ;  	
+	};
+
+	{
+	real tmp4_4_4, ABCd_efg[321);    --  )   instead of  ]  in array definition 
+	return ABCd_efg[321];
+	};	
+
+	{
+	double ABCd_efg, i_j_k_0_0 , varname;  -- double instead of real  
+	varname = 1;
+	};
+
+	{
+	integer array_with_bad_size_def [2.56];   -- array size must be an integer number  
+	array_with_bad_size_def [2] = 2.56;
+	};
+
+	{
+	integer a;
+	return (ABCd_efg / varname_0_0 / i_j_k / ABCd_efg * varname_0_0 [2]);   -- expression in RETURN 
+										-- placed into parentheses
+	};
+
+	{
+	integer b;
+	retun;   -- RETUN instead of RETURN
+	};
+
+	{
+	integer c;
+	funcname( );
+	func_ABCd_efg(name_name [1234], name_name, tmp; Arr_name[567]);		-- ;  instead of ,  in parameters list
+	};
+
+end 
+
+void boo (){
+	integer name_name, tmp ;
+	real tmp;
+	real name_name, varname [89], id, name_name [1011]; 
+	return;
+	varname [tmp+121314]= varname * tmp * 15.16;   -- index can only be an integer number, not an expression
+	tmp = 17.18;
+}   	
+
+real foo1()
+	{
+	real tmp = 2.2;						-- initialization in definitions not allowed
+	tmp = 2.2;
+	}
+
+integer foo2()	{
+	real id, tmp [21], tmp, tmp [22]			-- missing ;  after the definition
+	integer i;
+	{	
+	integer i_j_k, i_j_k ;
+		real varname;
+
+		return;
+		ABCd_efg[23]= id * ABCd_efg * 24.5; 
+	};
+}
+
+real foo3(integer a , b)  {
+	real ABCd_efg[10];
+	{
+	integer k;
+	ABCd_efg[24]= ABCd_efg[25] * ABCd_efg * 24.5;   -- arithmetic expression (on the right side) can start with ID only
+							-- but not with array element
+	}		-- missig sign ;
+	
+	{
+	integer tmp;
+	ABCd_efg = 6.7;
+	tmp = tmp * ABCd_efg[23] * ABCd_efg[24] ;	-- array element can appear only at the end of 
+							-- arithmetic expression
+	};
+
+	{
+		integer HIT50;
+                tmp = tmp / 3.14;
+	];		-- block should be closed by }  , not by  ]
+}
+
+integer foo4()
+	{real pi; pi = 3.14;} ;			-- redundant  ;  between two function definitions  
+
+integrr foo (real tmp , ABCd_efg, tmp [19]; real tmp [20], tmp ; integer tmp, id, id, tmp) {    -- returned type 
+												-- should be INTEGER
+												-- not INTEGRR
+	integer tmp, id ;
+	tmp = 0.0;
+	}
+
+integer foo7()
+{
+	real i_j_k_0, varname_4_4(22);   --  ()  instead of  [ ]  in array definition  
+	varname_4_4[1] = 4.4;	
+}
+	
+integer foo5()
+	{
+	real varname_0_0;                    /* C style comment instead of C++ style (as needed) */
+	varname_0_0 = 0.12;
+	}
+
+integer foo6()
+	{ 
+		integer i_j_k, i_j_k ;
+		real varname;
+		{
+			real varname;
+			return;
+			ABCd_efg[0]= ABCd_efg / id_0_0 * 0.0;	
+			varname = 0.0;
+		};
+		real id_0_0, varname [5], i_j_k_0_0, varname [56];   -- definitions appear after statements
+
+	}
+	

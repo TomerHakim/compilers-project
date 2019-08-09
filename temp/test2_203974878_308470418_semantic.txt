@@ -1,0 +1,57 @@
+ERROR: Duplicated definition of variable 'varname2' in line number 4.
+ERROR: Duplicated definition of variable 'ABCd_efg' in line number 7.
+ERROR: Array index out of bound. Id: intArr, array size: 10, but required index: 20 line number: 12. 
+ERROR: The variable 'id' is in use, but was not declared. Line number: 13
+ERROR: The variable 'idx' is in use, but was not declared. Line number: 14
+ERROR: The variable 'idy' is in use, but was not declared. Line number: 15
+ERROR: The variable 'idz' is in use, but was not declared. Line number: 16
+ERROR: Direct assignment to an array id is forbidden. Id: varname_4_4, line number: 18. 
+ERROR: Type mismatch. Variable: varname2 type is integer which is different than the expression type: error_type. Line number: 23. 
+ERROR: Type mismatch. Variable: varname2 type is integer which is different than the expression type: real. Line number: 29. 
+ERROR: Type mismatch. Variable: tmp123 type is integer which is different than the expression type: real. Line number: 30. 
+ERROR: Type mismatch. Variable: tmp123 type is integer which is different than the expression type: real. Line number: 31. 
+ERROR: Type mismatch. Variable: tmp123 type is integer which is different than the expression type: real. Line number: 32. 
+ERROR: Type mismatch. Variable: tmp123 type is integer which is different than the expression type: real. Line number: 33. 
+ERROR: Type mismatch. Variable: intArr type is integer which is different than the expression type: real. Line number: 34. 
+ERROR: The variable 'undefined_id' is in use, but was not declared. Line number: 46
+ERROR: Returned type: real differs from function type: Void. Line number: 51 
+Warning: The variable 'i_j_k_0' is declared but is not used. Line number: 6 
+Warning: The variable 'unused_var' is declared but is not used. Line number: 9 
+ERROR: The function 'boo2' is in use, but was not declared. Line number: 59 
+ERROR: Returned type: integer differs from function type: Void. Line number: 60 
+ERROR: Duplicated definition of function 'boo' in line number: 63.
+ERROR: The number of parameters used in function call 'boo' does not match to the function's definition. Required number of parameters: 0, given number of parameters 1. Line number: 73. 
+Warning: The variable 'tmp1' is declared but is not used. Line number: 70 
+Warning: The variable 'tmp2' is declared but is not used. Line number: 71 
+Warning: The variable 'tmp' is declared but is not used. Line number: 69 
+Warning: The variable 'w' is declared but is not used. Line number: 77 
+ERROR: Duplicated definition of variable 'w' in line number 83.
+ERROR: The number of parameters used in function call 'exp2' does not match to the function's definition. Required number of parameters: 4, given number of parameters 1. Line number: 85. 
+ERROR: The number of parameters used in function call 'exp2' does not match to the function's definition. Required number of parameters: 4, given number of parameters 2. Line number: 86. 
+Warning: The variable 'a' is declared but is not used. Line number: 83 
+Warning: The variable 'uswz' is declared but is not used. Line number: 83 
+ERROR: Duplicated definition of variable 'tmp' in line number 90.
+ERROR: Duplicated definition of variable 'tmp' in line number 90.
+Warning: The variable 'mvp' is declared but is not used. Line number: 83 
+Warning: The variable 'ABCd_efg' is declared but is not used. Line number: 90 
+Warning: The variable 'x' is declared but is not used. Line number: 91 
+ERROR: Duplicated definition of variable 'tmp' in line number 95.
+ERROR: Duplicated definition of variable 'tmp' in line number 95.
+ERROR: Duplicated definition of variable 'a' in line number 96.
+ERROR: Duplicated definition of variable 'a' in line number 100.
+ERROR: Duplicated definition of variable 'a' in line number 101.
+Warning: The variable 'b' is declared but is not used. Line number: 100 
+ERROR: Duplicated definition of variable 'a' in line number 105.
+ERROR: Duplicated definition of variable 'b' in line number 105.
+ERROR: Returned type: integer differs from function type: real. Line number: 113 
+ERROR: The number of parameters used in function call 'exp2' does not match to the function's definition. Required number of parameters: 4, given number of parameters 1. Line number: 116. 
+ERROR: Return statement did not appear in function: 'fun', which has type different than void. Function declared in line number: 116 
+ERROR: Returned type: Void differs from function type: integer. Line number: 118 
+Warning: The variable 'x' is declared but is not used. Line number: 118 
+ERROR: Duplicated definition of variable 'b' in line number 120.
+ERROR: Direct assignment to a function id is forbidden. Id: fun3, line number: 122. 
+Warning: The variable 'x' is declared but is not used. Line number: 122 
+ERROR: The variable 'tmp123' is in use, but was not declared. Line number: 126
+Warning: The variable 'param' is declared but is not used. Line number: 124 
+Warning: The variable 'global_var' is declared but is not used. Line number: 125 
+Warning: The variable 'param' is declared but is not used. Line number: 124 

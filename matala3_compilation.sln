@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matala1_compilation", "matala1_compilation\matala1_compilation.vcxproj", "{21BB0D15-C559-457A-A06F-D77C2818EDA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BB0D15-C559-457A-A06F-D77C2818EDA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21BB0D15-C559-457A-A06F-D77C2818EDA6}.Debug|Win32.Build.0 = Debug|Win32
+		{21BB0D15-C559-457A-A06F-D77C2818EDA6}.Release|Win32.ActiveCfg = Release|Win32
+		{21BB0D15-C559-457A-A06F-D77C2818EDA6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

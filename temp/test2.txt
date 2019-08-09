@@ -1,0 +1,133 @@
+-- good input file
+program
+	integer tmp123, varname2, var_xz, intArr[10];
+	integer varname2;								--Duplicate declaration: varname2
+	real varname_22;
+	real tmp4_4_4, ABCd_efg[321], i_j_k_0, varname_4_4[22];		
+	real  ABCd_efg, i_j_k_0_0 , varname;						--Duplicate declaration: ABCd_efg
+
+	integer unused_var;
+	
+	intArr[9] = 4;
+	intArr[20] = 7;									--Index value is bigger than the size of array intArr
+	id = 3.7;									--Identifier id is not declared
+	tmp123 = idx;									--Identifier idx is not declared
+	tmp123 = tmp123 * idy;								--Identifier idy is not declared	
+	ABCd_efg[0] = idz * 2.3; 							--Identifier idz is not declared
+	
+	varname_4_4 = 2.56;								--Can't assign to array: varname_4_4
+	tmp123[7] = 5;									--Identifier tmp123 is not an array
+	varname_22 = tmp123 * i_j_k_0_0 / intArr;					--Can't perform arithmetic operation on array: intArr;
+
+	varname2 = tmp123;								--Correct: both sides are integer
+	varname2 = tmp123 * intArr[2];							--Correct: both sides are integer
+	varname2 = tmp123 / var_xz * varname2 * 3;					--Correct: both sides are integer
+	tmp4_4_4 = tmp123;								--Correct: integer is assigned to real					
+	varname_22 = tmp123 * i_j_k_0_0 / 2.5;						--Correct: both sides are real
+	tmp123 = varname2 * 7;								--Correct: both sides are integer
+
+	varname2 = tmp123 * i_j_k_0_0 / varname_4_4[3];					--Expression is of type real, receiver is of type integer
+	tmp123 = varname;								--Expression is of type real, receiver is of type integer
+	tmp123 = varname2 * 7.5;							--Expression is of type real, receiver is of type integer
+	tmp123 = varname2 * tmp123 * 0.4;						--Expression is of type real, receiver is of type integer
+	tmp123 = varname2 * tmp123 / i_j_k_0_0;						--Expression is of type real, receiver is of type integer
+	intArr[3] = varname2 * tmp123 / i_j_k_0_0;					--Expression is of type real, receiver is of type integer
+
+
+	{
+	real tmp123;									--Correct: local tmp123 is real; on higher level was integer
+	integer varname_22;								--Correct: local varname_22 is integer; on higher level was real
+	tmp123 = 1.23;									--Correct assignment to the local tmp123
+		{
+		integer intArr;								--Correct: local intArr is integer; on higher level was int array
+		integer tmp123[10];							--Correct: local tmp123 is defined in this block as array
+		tmp123[4] = intArr;							--Correct!
+		intArr[2] = varname_22;							-- Wrong: in this block intArr is not an array
+		varname_22 = undefined_id;						--Use of ID that is not defined on any level of the block hierarchy
+		};	
+	};
+
+	return;										--Correct RETURN statement in the main program
+	return varname2 * 7.5;								--RETURN statement in the main can't return a value
+	
+end 											--BONUS: no use of unused_var
+
+void boo (){
+	integer tmp ;
+	real tmp2;
+	tmp2 = tmp;
+	boo2();										--Call to function boo2 that is not declared yet!
+	return tmp;									--Function of type void can't return values!								
+}
+
+void boo (){										--Function boo is already declared!
+	integer tmp ;
+	real tmp2;
+	tmp2 = tmp;
+}
+
+void boo2 (real tmp){
+	integer tmp1 ;
+	real tmp2;
+	boo();										--Correct call of function boo that is already declared
+	boo(tmp);									--Wrong amount of parameters in function call
+	return;										--Correct: void function doen't return any value
+}											--BONUS: no use of tmp1, tmp2
+
+integer exp(integer w) {
+	integer x ;
+	exp(x);										--Correct: function may call itself
+	return 10;									--Correct: return value of the correct type	
+}											--BONUS: no use of w
+
+integer exp2(integer w, a; real mvp, uswz) {
+	integer x ;
+	exp2(w);									--Wrong amount of parameters in call to exp2
+	exp2(mvp, x);									--Wrong amount of parameters in call to exp2
+	return 10;	
+}
+
+real get_money(real tmp , ABCd_efg, tmp [19]) {						--Duplicated declaration of parameter tmp 
+	integer x ;
+	return tmp;
+}
+
+real get_money2(real tmp; integer tmp) {						--tmp is declared twice!
+	integer a;
+	return tmp;
+}
+
+real get_money3(real a; integer b) {						
+	integer a;									--Local variable can't have same name as function's parameter
+	return 7.3;
+}
+
+real get_money4(real a; integer b) {
+	integer x;
+	real y;
+	x = 5;
+	y = 4.8;
+	exp2(b, x, a, y);								--Correct amount of parameters in function call)
+											--BONUS: correct types of parameters in call of function exp2
+	exp(a);										--BONUS: wrong type of parameter in call of function exp
+	return a*2;
+}	
+
+integer fun() {integer x; exp2(x); }								--Function fun must return a value
+
+integer fun2() {integer x; return; }								--Function fun2 must return a value
+
+integer fun3() { real b; return b; }							--BONUS: function fun3 must return a value from type integer
+
+void fun4() { integer x; fun3 = 5; return; }						--Can't assign to ID that is defined as function
+
+void fun5(integer param) {
+	integer global_var;
+	tmp123 = 4;									--This tmp123 is undefined
+	{integer local_var;
+	local_var = 5;
+		{real embedded_var;
+		embedded_var = local_var * param;
+		};
+	};
+}	
